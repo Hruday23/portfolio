@@ -9,13 +9,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/a29229ad10.js" crossorigin="anonymous"></script>
         <script src="particles.js"></script>
-       <script>
-  var content = document.getElementById('content');
-  var width = window.innerWidth;
-  var scale = width / 1280;
-  content.style.width = width + 'px';
-  content.style.height = content.offsetWidth * scale + 'px';
-</script>
+       <script>var siteWidth = 1280;
+var scale = screen.width / siteWidth;
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + siteWidth + ', initial-scale=' + scale + '');</script>
         
     </head> 
     <body>
