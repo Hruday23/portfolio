@@ -106,7 +106,7 @@ nav ul li a:hover{
 	overflow: hidden;
 	border-right: 4px solid whitesmoke;
 	animation: cursor 1s step-start infinite, 
-    text 5s steps(7) alternate infinite;
+    text 2s steps(7) alternate infinite;
 }
 
 @keyframes cursor {
