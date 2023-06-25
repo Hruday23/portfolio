@@ -803,7 +803,7 @@ form input, form textarea{
       left: 0;
     }
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
     
     .bgimg{
         bottom: 0;
