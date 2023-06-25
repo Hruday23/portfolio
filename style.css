@@ -810,7 +810,7 @@ form input, form textarea{
         position: absolute;
         right: 0;
         top: 10%;
-        width: 35%;
+        width: 350%;
         z-index: -1;
         
     }
@@ -819,7 +819,7 @@ form input, form textarea{
         position: absolute;
         left:0;
         top: 22%;
-        width: 55%;
+        width: 550%;
         z-index: -1;
     }
     .bgimg2{
@@ -827,7 +827,7 @@ form input, form textarea{
         position: absolute;
         right: 0;
         top: 36%;
-        width: 50%;
+        width: 500%;
         z-index: -1;
     }
     .bgimg3
@@ -836,7 +836,7 @@ form input, form textarea{
         position: absolute;
         left:0;
         top: 52%;
-        width: 60%;
+        width: 600%;
         z-index: -1;
     }
   }
