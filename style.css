@@ -803,3 +803,40 @@ form input, form textarea{
       left: 0;
     }
   }
+@media only screen and (max-width: 600px) {
+    
+    .bgimg{
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        top: 10%;
+        width: 35%;
+        z-index: -1;
+        
+    }
+    .bgimg1{
+        bottom: 0;
+        position: absolute;
+        left:0;
+        top: 22%;
+        width: 55%;
+        z-index: -1;
+    }
+    .bgimg2{
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        top: 36%;
+        width: 50%;
+        z-index: -1;
+    }
+    .bgimg3
+    {
+        bottom: 0;
+        position: absolute;
+        left:0;
+        top: 52%;
+        width: 60%;
+        z-index: -1;
+    }
+  }
