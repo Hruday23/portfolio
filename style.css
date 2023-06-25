@@ -818,7 +818,7 @@ form input, form textarea{
         bottom: 0;
         position: absolute;
         left:0;
-        top: 380%;
+        top: 300%;
         width: 55%;
         z-index: -1;
     }
@@ -846,5 +846,40 @@ form input, form textarea{
         background-color: #000;
         margin-top:50px;
         z-index: 0;
+    }
+	.mine-1 h1{
+        font-size: 70px;
+        color:white;
+        margin-bottom: 0px;
+        margin-top: -30px;
+        width: 8ch;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px solid whitesmoke;
+        animation: cursor 1s step-start infinite, 
+        text 5s steps(7) alternate infinite;
+    }
+    
+    @keyframes cursor {
+        0%, 100% { 
+        border-color: whitesmoke; 
+      }
+    }
+    
+    @keyframes text {
+        0% { 
+        width: 0; 
+      }
+        100% { 
+        width: 8ch; 
+      }
+    }
+    
+    .mine-1 h1 span{
+        font-size: 100px;
+        color:white;
+        margin-bottom: 0px;
+        margin-top: -30px;
+      
     }
   }
