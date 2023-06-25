@@ -809,7 +809,7 @@ form input, form textarea{
         bottom: 0;
         position: absolute;
         right: 0;
-        top: 10%;
+        top: 120%;
         width: 35%;
         z-index: -1;
         
@@ -818,7 +818,7 @@ form input, form textarea{
         bottom: 0;
         position: absolute;
         left:0;
-        top: 22%;
+        top: 180%;
         width: 55%;
         z-index: -1;
     }
@@ -826,7 +826,7 @@ form input, form textarea{
         bottom: 0;
         position: absolute;
         right: 0;
-        top: 36%;
+        top: 240%;
         width: 50%;
         z-index: -1;
     }
@@ -835,7 +835,7 @@ form input, form textarea{
         bottom: 0;
         position: absolute;
         left:0;
-        top: 52%;
+        top: 60%;
         width: 60%;
         z-index: -1;
     }
