@@ -883,7 +883,87 @@ form input, form textarea{
       
     }
   }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
+    
+    .bgimg{
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        top: 110%;
+        width: 70%;
+        z-index: -1;
+        
+    }
+    .bgimg1{
+        bottom: 0;
+        position: absolute;
+        left:0;
+        top: 170%;
+        width: 55%;
+        z-index: -1;
+    }
+    .bgimg2{
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        top: 240%;
+        width: 100%;
+        z-index: -1;
+    }
+    .bgimg3
+    {
+        bottom: 0;
+        position: absolute;
+        left:0;
+        top: 60%;
+        width: 60%;
+        z-index: -1;
+    }
+	.footer{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background-color: red;
+        margin-top:50px;
+        z-index: 0;
+    }
+	.mine-1 h1{
+        font-size: 70px;
+        color:white;
+        margin-bottom: 0px;
+        margin-top: -30px;
+        width: 8ch;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px solid whitesmoke;
+        animation: cursor 1s step-start infinite, 
+        text 5s steps(7) alternate infinite;
+    }
+    
+    @keyframes cursor {
+        0%, 100% { 
+        border-color: whitesmoke; 
+      }
+    }
+    
+    @keyframes text {
+        0% { 
+        width: 0; 
+      }
+        100% { 
+        width: 8ch; 
+      }
+    }
+    
+    .mine-1 h1 span{
+        font-size: 100px;
+        color:white;
+        margin-bottom: 0px;
+        margin-top: -30px;
+      
+    }
+  }
+@media only screen and (max-width: 480px) {
     
     .bgimg{
         bottom: 0;
