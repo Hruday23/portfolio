@@ -226,12 +226,9 @@ nav ul li a:hover{
 .about-col-1 div{
     z-index: 1;
 }
-.about-col-1 img div{
-    width:100%;
-    border-radius: 20px;
-    z-index: 1;
-    overflow: hidden;
-    
+.profile{
+    height: 600px;
+    width: 400px;
 }
 .about-col-2{
     flex-basis: 60%;
